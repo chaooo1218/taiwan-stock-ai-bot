@@ -1,0 +1,23 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# runtime & cache
+cache/
+logs/
+signal_log.csv
+storage/signals.db
+
+# env & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OS cruft
+.DS_Store
+Thumbs.db
